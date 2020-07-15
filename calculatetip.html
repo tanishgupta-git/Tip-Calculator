@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tipcalculator</title>
+	     <link rel="stylesheet" type="text/css" href="calculatetip.css">
+	         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&family=Oswald:wght@500&display=swap" rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<div class="welcome">
+        	<h1>Starbucks services welcomes you</h1>
+</div>
+<div class="content">
+      <div class="heading">Tip Calculator</div>	
+          <div  class="div1">
+             <p class="quest">Enter Your Amount:</p>
+                 <i  id="icon" class='fas fa-dollar-sign' style='font-size:24px'></i>
+                    <input type="number" name="number" id="money" required="1">
+           </div>
+                    <div class="div1">
+                        <p class="quest">How Was Our Service ?.</p>
+                           <select class="option">
+	                          <option>------Choose a option------</option>
+	                              <option>we love it,fantastic.</option>
+	                                           <option>it is good.</option>
+	                                             <option>poor, need to work.</option>
+                                                                       </select>
+                        </div>
+                             <div class="div1">
+                                <p class="quest">How many people are sharing?.</p>
+                                  <input type="number" name="number" id="people" required="1">
+                               </div>
+                           <div id="lastb">
+                             <button type= "submit" class="calcu">Calculate tip</button>
+                            </div>
+                           <div id="tipan">
+                              $ 0.00
+                            </div>
+             </div>
+
+<script type="text/javascript" src="calculatetip.js"></script>
+
+</body>
+</html>
