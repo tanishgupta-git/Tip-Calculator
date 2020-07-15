@@ -1,0 +1,97 @@
+html,body{
+	margin: 0;
+	background-image: url("restau.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome{
+	color:#5a3f11;
+	font-family: 'Baloo Tammudu 2', cursive;
+text-align: center;
+font-size: 2em;
+}
+.heading{
+	color:white;
+	font-size: 2em;
+	background-color:#231903;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+}
+.content{
+	background-color: #faf4f4;
+	box-sizing: border-box;
+	width:30%;
+	height: 500px;
+	margin-left:65%;
+	margin-right: 5%;
+	border-radius: 10px;
+}
+.div1{
+	height: 20%;
+	font-size: 1.4em;
+	margin-left: 10%;
+}
+.quest{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	font-family: 'Oswald', sans-serif;
+	color:#5a3f11;
+}
+.div2{
+height: 30%;
+	font-size: 1.4em;	
+}
+.option{
+	width:50%;
+	font-size: 0.8em;
+	margin-bottom: 30px;
+	color:#5a3f11;
+}
+#lastb{
+	display: flex;
+	justify-content: center;
+}
+#money{
+	width:30%;
+	height:30%;
+	font-size: 0.7em;
+	margin-left: 1%;
+	border-radius: 2px;
+}
+#people{
+	width:30%;
+	height:30%;
+	font-size: 0.7em;
+	margin-left: 1%;
+	border-radius: 2px;
+}
+
+.calcu{
+background-color: #5a3f11;
+ border:2px solid #5a3f11;
+ padding: 15px 30px;
+ text-align: center;
+ letter-spacing: 1px;
+ cursor: pointer;
+ color: white;
+ outline:none;
+ font-size: 1.4em;
+ transition:0.4s;
+}
+.calcu:hover{background-color:#ededed;
+	color: black;
+}
+#icon{
+	color:#5a3f11;
+}
+#tipan{
+	text-align: center;
+	height: 15%;
+	box-sizing: border-box;
+	padding-top: 7%;
+	font-size: 2.2em;
+	color:#527318;
+}
